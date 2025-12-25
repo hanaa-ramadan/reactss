@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, #1f2f5f, #355c9a);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 13px rgba(16, 158, 219, 0.59);
+}
+
+.logo {
+  height: 80px;
+}

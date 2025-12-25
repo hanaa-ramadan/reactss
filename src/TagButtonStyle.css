@@ -1,0 +1,58 @@
+.tagButton {
+  background: linear-gradient(135deg, #5fa8e6, #2f6fb3);
+  border: none;
+  color: white;
+  border-radius: 30px; /* كبسولة */
+  margin: 10px;
+  padding: 14px 36px;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tagButton:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 12px 28px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(135deg, #6bb5f0, #3a7bc4);
+}
+.menuContainer {
+  display: flex;
+  justify-content: center; /* بالنص */
+  margin-top: 20px;
+}
+
+.menuList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;          /* جنب بعض */
+  gap: 25px;              /* مسافة بينهم */
+  justify-content: center;
+  align-items: center;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page {
+  background-color: #f2f4f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;     /* نزول خفيف */
+  
+}
+
+.mainBox {
+  width: 80%;
+  max-width: 900px;
+  background-color: white;
+  border: 3px solid black;   /* الإطار الأسود */
+  border-radius: 20px;
+  overflow: hidden;          /* مهم ليقص الهيدر */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
